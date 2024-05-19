@@ -1,0 +1,133 @@
+@media (max-width: 980px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-content h1 {
+        font-size: 2.8rem;
+        max-width: 80%;
+    }
+
+    .header-content p {
+        max-width: 70%;
+    }
+
+    .header-screens {
+        display: none;
+    }
+
+    header {
+        padding-bottom: 80px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 949px) {
+    .about-section .content {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .about-section .image {
+        width: 100%;
+    }
+
+    .about-section .text {
+        width: 100%;
+    }
+
+    #imageToHide,
+    #imageToHide2 {
+        display: none;
+    }
+}
+
+@media (max-width: 910px) {
+    nav ul {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        overflow-y: auto;
+        background-color: rgb(62, 100, 211);
+        z-index: 999;
+    }
+
+    #close {
+        display: block;
+    }
+
+    #menu {
+        width: 32px;
+        display: block;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 740px) {
+    .header-content h1 {
+        font-size: 2rem;
+        max-width: 80%;
+    }
+
+    .header-content p {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 540px) {
+    .header-content h1 {
+        font-size: 1.7rem;
+    }
+
+    .screenWrapper {
+        display: none;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header-content p,
+    .about-section .text p,
+    .feature-card p,
+    .contact-info p {
+        font-size: 0.9rem;
+    }
+
+    .about-section .text h2,
+    .contact-info h2 {
+        font-size: 1.4rem;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-section {
+        padding: 30px 20px;
+    }
+
+    .about-section .image {
+        display: none;
+    }
+
+    .about-section .text a {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 20px 20px;
+    }
+}
